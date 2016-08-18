@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">-->
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        /*.cell {
+            background-color: #efefff;
+            border: 2px solid #9d9df7;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }*/
+
+        .outer{
+            background-color:#efefff;
+        }
+
+        .inner{
+            background-color:#cbd0e6;
+            border: 2px solid white;
+        }
+        .outline{
+            border: 2px dashed red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="outer col-xs-8">
+            Here's a nested ROW:
+            <div class="row outline">
+                <div class="inner col-xs-3 col-sm-offset-2">Inner</div>
+                <div class="inner col-xs-3">Inner Cell</div>
+                <div class="inner col-xs-3">Inner Cell</div>
+            </div>
+            &nbsp;
+        </div>
+        <div class="col-xs-4 outer">Regular Cell</div>
+        <p>&nbsp;</p>
+    </div>
+   </div>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>-->
+    <script src="Scripts/jquery-2.0.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+</html>
